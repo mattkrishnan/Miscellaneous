@@ -1,0 +1,10 @@
+<script>
+function removePeriods() {
+    var str = document.getElementById("c_degrees").innerHTML; 
+    var res = str.replace(/\./g, "");
+    document.getElementById("c_degrees").innerHTML = res;
+  
+}
+
+window.onload = removePeriods;
+</script>
